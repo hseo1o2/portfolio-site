@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body, #root {
+    height: 100%;
+    font-family: 'Pretendard', sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .content {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    min-height: 100%;
+  }
+  
