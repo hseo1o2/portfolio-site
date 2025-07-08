@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
+import Experiences from './pages/experiences'
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/experiences" element={<Home />} /> {/* 임시 처리 */}
+          <Route path="/experiences" element={<Experiences />} /> {/* 임시 처리 */}
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

@@ -3,11 +3,14 @@ import { Link } from 'react-router-dom'
 function Header() {
   return (
     <header style={styles.header}>
-      <div style={styles.title}>Jang Hyeonseo’s Portfolio</div>
+      <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+        <span style={styles.titleText}>Jang Hyeonseo’s Portfolio</span>
+      </Link>
+
       <nav style={styles.nav}>
-        <Link to="/about">ABOUT</Link>
-        <Link to="/experiences">EXPERIENCES</Link>
-        <Link to="/projects">PROJECTS</Link>
+        <Link to="/about" style={styles.navLink}>ABOUT</Link>
+        <Link to="/experiences" style={styles.navLink}>EXPERIENCES</Link>
+        <Link to="/projects" style={styles.navLink}>PROJECTS</Link>
       </nav>
     </header>
   )
@@ -26,7 +29,7 @@ const styles = {
     padding: '0 2rem',
     zIndex: 1000
   },
-  title: {
+  titleText: {
     fontSize: '1.1rem',
     fontWeight: 600
   },
@@ -35,6 +38,11 @@ const styles = {
     gap: '2rem',
     fontSize: '0.95rem',
     fontWeight: 500
+  },
+  navLink: {
+    textDecoration: 'none',
+    color: 'black',
+    transition: 'color 0.2s',
   }
 }
 

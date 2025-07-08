@@ -1,0 +1,26 @@
+.home {
+    text-align: center;
+    padding: 10rem 1rem;
+    font-family: 'Pretendard', sans-serif;
+  }
+  
+  .subtitle {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .title {
+    font-size: 7.5rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+  
+  .description {
+    font-size: 1.25rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  

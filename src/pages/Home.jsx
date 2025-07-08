@@ -1,10 +1,19 @@
-function Home() {
+import "../styles/Home.css";
+
+export default function Home() {
     return (
-      <div style={{ padding: '2rem' }}>
-        <h1>Hello, I'm Hyeonseo 👋</h1>
-        <p>This is the home page of my portfolio.</p>
-      </div>
-    )
+      <main className="home">
+        <p className="subtitle">
+          Frontend Engineer • Backend Engineer • Product Manager • Marketing
+        </p>
+        <h1 className="title">
+          Jang Hyeonseo’s <br /> Portfolio
+        </h1>
+        <p className="description">
+          다양한 분야를 경험하며 열정 속에서 <br />
+          매일 한걸음씩 성장하는 중입니다.
+        </p>
+      </main>
+    );
   }
-  export default Home
   

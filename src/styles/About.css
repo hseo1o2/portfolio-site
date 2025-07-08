@@ -1,0 +1,114 @@
+.about {
+  padding: 5rem 2rem;
+  font-family: 'Pretendard', sans-serif;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 0 20px;
+  max-width: 1200px;
+  margin-left: 80px;
+  margin-right: 0;
+}
+
+.emoji-img {
+  width: 550px;
+  flex-shrink: 0;
+}
+
+.about-content {
+  flex: 1;
+}
+
+.about-content h2 {
+  font-size: 3.2rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+/* 공통 row 스타일 */
+.section-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+/* 왼쪽 제목 스타일 */
+.section-row h3 {
+  font-size: 1.5rem;
+  min-width: 180px;
+  margin: 0;
+  font-weight: 1000;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+
+/* education 텍스트 부분 */
+.education-text p {
+  margin: 0.2rem 0;
+  font-size: 1rem;
+}
+
+/* 기술 아이콘 영역 */
+.skills-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: flex-start;
+  margin-top: 0; /* section-row에서 바로 이어지도록 조정 */
+}
+
+/* 개별 스킬 아이콘 박스 */
+.skill-box {
+  background-color: #eeeeee;
+  border-radius: 20px;
+  padding: 16px;
+  width: 80px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-box img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.section-horizontal {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+
+.section-title {
+  min-width: 160px;
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  margin-top: 4px;
+}
+
+.section-content p {
+  margin: 0.2rem 0;
+  font-size: 1rem;
+}
+
+.section-content.skills-icons {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 16px;
+}
